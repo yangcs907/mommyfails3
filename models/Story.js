@@ -27,8 +27,7 @@ const StorySchema = new Schema({
     required: true
   },
   storyTitle: {
-    type: String,
-    required: true
+    type: String
   },
   story: {
     type: String,
